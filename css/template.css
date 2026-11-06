@@ -1,0 +1,42 @@
+body {
+  background-color: cornsilk;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#topo {
+  color: chocolate;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: bisque;
+  text-align: center;
+  padding: 10px;
+}
+
+#conteudo {
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: bisque; 
+  min-height: 100px;
+  padding: 20px; 
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 15px;
+}
+header ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 1px solid chocolate;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+header ul a:hover {
+    background-color: chocolate;
+    color: white;
+}
+
